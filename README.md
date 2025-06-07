@@ -1,12 +1,44 @@
-# React + Vite
+# Paste-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern pastebin application built with React, Redux, and Tailwind CSS that allows users to create, view, edit, and share text snippets.
 
-Currently, two official plugins are available:
+## Home Screen
+![Screenshot 2025-06-07 185615](https://github.com/user-attachments/assets/96f101d7-d44b-43c6-929e-d6b656af5dfb)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Paste Screen
+![Screenshot 2025-06-07 185650](https://github.com/user-attachments/assets/46314b39-dc12-4e48-8372-3af89c12ae8c)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Features
+
+- ✨ **Create pastes** with titles and content
+- 📋 **Copy paste content** with one click
+- 🔗 **Share pastes** via URL
+- ✏️ **Edit existing pastes**
+- 🔍 **Search through your pastes**
+- 🌓 **Dark/Light mode** support
+- 📱 **Responsive design** works on all devices
+- 📊 **Character & word count** for each paste
+
+## Technologies Used
+
+- **Frontend**: React.js, Redux Toolkit, React Router
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons
+- **Date Handling**: date-fns
+- **Notifications**: react-hot-toast
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/pastebin-clone.git
+   cd pastebin-clone
+   npm run dev
+
+2. Open http://localhost:3000 to view it in your browser.
+
+
+   
