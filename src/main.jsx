@@ -1,19 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
+// index.jsx or main.jsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import { store } from './store.js'
+import { store } from './store'
 import { Provider } from 'react-redux'
-import { Toaster } from 'react-hot-toast'
+import './index.css' // or App.css if you're using tailwind and styles
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <Provider store={store}>
-    
       <App />
-      <Toaster />
-  
     </Provider>
-  </StrictMode>,
-  
+  </React.StrictMode>
 )
